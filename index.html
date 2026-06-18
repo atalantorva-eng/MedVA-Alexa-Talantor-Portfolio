@@ -1,9 +1,489 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Alexa Talantor</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Alexa Talantor | Medical Virtual Assistant</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" 
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
+
+
 <body>
-<h1>Hello World</h1>
+
+
+<!-- Floating Medical Icons -->
+
+<div class="floating">
+
+<i class="fa-solid fa-heart-pulse"></i>
+<i class="fa-solid fa-stethoscope"></i>
+<i class="fa-solid fa-tooth"></i>
+
+</div>
+
+
+
+<!-- NAVIGATION -->
+
+<header>
+
+<nav>
+
+<h2 class="logo">
+Alexa<span>VA</span>
+</h2>
+
+
+<ul>
+
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#experience">Experience</a></li>
+<li><a href="#services">Services</a></li>
+<li><a href="#apps">Apps</a></li>
+<li><a href="#certificates">Certificates</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#feedback">Feedbacks</a></li>
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+
+</nav>
+
+</header>
+
+
+
+
+
+<!-- HOME -->
+
+
+<section id="home" class="hero">
+
+
+<div class="hero-text">
+
+
+<h3>Hello, I am</h3>
+
+<h1>Alexa Talantor</h1>
+
+
+<h2>
+<span id="typing"></span>
+</h2>
+
+
+<p>
+
+Physician & Dental Assistant turned Medical Virtual Assistant.
+Helping healthcare professionals manage schedules,
+patients, documentation, and administrative tasks.
+
+</p>
+
+
+<div>
+
+<a href="#contact" class="btn">
+Hire Me
+</a>
+
+
+<a href="#certificates" class="btn outline">
+View Certificates
+</a>
+
+
+</div>
+
+
+
+</div>
+
+
+
+
+<div class="profile">
+
+<img src="images/profile.jpg">
+
+
+</div>
+
+
+
+</section>
+
+
+
+
+
+<!-- ABOUT -->
+
+
+<section id="about">
+
+
+<h2 class="title">
+About Me
+</h2>
+
+
+<div class="box">
+
+
+<p>
+
+Dedicated Medical Virtual Assistant with
+2 years of experience supporting physicians
+and dental professionals.
+
+Experienced in appointment scheduling,
+patient communication, documentation,
+calendar management, and administrative support.
+
+</p>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+<!-- EXPERIENCE -->
+
+
+<section id="experience">
+
+
+<h2 class="title">
+Experience
+</h2>
+
+
+<div class="timeline">
+
+
+<div class="card">
+
+<i class="fa-solid fa-user-doctor"></i>
+
+<h3>
+Physician Assistant Support
+</h3>
+
+<p>
+Patient coordination, scheduling,
+administrative assistance.
+</p>
+
+
+</div>
+
+
+
+<div class="card">
+
+
+<i class="fa-solid fa-tooth"></i>
+
+
+<h3>
+Dental Assistant Support
+</h3>
+
+
+<p>
+Dental appointment coordination,
+patient communication and records.
+</p>
+
+
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+<!-- SERVICES -->
+
+
+<section id="services">
+
+
+<h2 class="title">
+Services
+</h2>
+
+
+<div class="services">
+
+
+<div>
+<i class="fa-solid fa-calendar"></i>
+<h3>Scheduling</h3>
+</div>
+
+
+<div>
+<i class="fa-solid fa-phone"></i>
+<h3>Patient Support</h3>
+</div>
+
+
+<div>
+<i class="fa-solid fa-file-medical"></i>
+<h3>Documentation</h3>
+</div>
+
+
+<div>
+<i class="fa-solid fa-envelope"></i>
+<h3>Email Management</h3>
+</div>
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+<!-- APPS -->
+
+
+<section id="apps">
+
+
+<h2 class="title">
+Apps & Tools
+</h2>
+
+
+<div class="slider">
+
+
+<button onclick="changeSlide('apps','prev')">
+❮
+</button>
+
+
+<img id="apps"
+src="images/apps/app1.png">
+
+
+
+<button onclick="changeSlide('apps','next')">
+❯
+</button>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+<!-- CERTIFICATES -->
+
+
+<section id="certificates">
+
+
+<h2 class="title">
+Certificates
+</h2>
+
+
+<div class="slider">
+
+
+<button onclick="changeSlide('cert','prev')">
+❮
+</button>
+
+
+<img id="cert"
+src="images/certificates/cert1.jpg">
+
+
+<button onclick="changeSlide('cert','next')">
+❯
+</button>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+<!-- PROJECTS -->
+
+
+<section id="projects">
+
+
+<h2 class="title">
+Projects
+</h2>
+
+
+
+<div class="card">
+
+<h3>
+Healthcare Administrative Support
+</h3>
+
+
+<p>
+
+Organized schedules, handled patient
+communication and assisted daily clinic operations.
+
+</p>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+<!-- FEEDBACK -->
+
+
+<section id="feedback">
+
+
+<h2 class="title">
+Clients Feedback
+</h2>
+
+
+
+<div class="slider">
+
+
+<button onclick="changeSlide('feedback','prev')">
+❮
+</button>
+
+
+<img id="feedback"
+src="images/feedbacks/feedback1.jpg">
+
+
+
+<button onclick="changeSlide('feedback','next')">
+❯
+</button>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+<!-- CONTACT -->
+
+
+<section id="contact">
+
+
+<h2 class="title">
+Contact Me
+</h2>
+
+
+<div class="contact">
+
+
+<p>
+📧 atalantor.va@gmail.com
+</p>
+
+
+<p>
+📱 09915048079
+</p>
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+<footer>
+
+<p>
+© 2026 Alexa Talantor | Medical Virtual Assistant
+</p>
+
+</footer>
+
+
+
+
+<script src="script.js"></script>
+
+
 </body>
 </html>
